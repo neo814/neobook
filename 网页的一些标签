@@ -1,0 +1,96 @@
+网页的一些标签
+<!--如果设置了rows和cols，会进行平均切分-->  这一部分是注释，不显示
+
+IE强制刷新:  ctrl+f5
+小技巧：搜索  图片名 可以快速定位到相关代码的位置。
+ src是source的缩写，src的内容是页面必不可少的一部分，是引入。src指向的内容会嵌入到文档中当前标签所在的位置。常用的有：img、script、iframe。
+
+ <A href="http://download.13137game.com/zdjssm.apk">
+               <img src="__PUBLIC__/lbt/1.jpg" alt=""></A>
+               这段代码，实现在图片里加入了下载链接
+               
+表格：<table> 。<tr>行， <td>列。<bgcolor>背景颜色，<border>表格边框，<cellpadding>表格字间距，<cellspacing>表格边框间距；
+超链接：<a href="地址" title="提示信息" target="＿blank(跳转新窗口)，＿top(全窗口连结)，页框名(在指定页框连结)"；
+表单：<form name="表单名称" method="post/get" action="提交地址">
+文本框：<input type="text" name="名称" value="值"/>
+密码框：<input type="password" name="名称" value="值"/>
+单选按钮：<input type="radio" name="名称" value="值"/>
+复选按钮：<input type="checkbox" name=名称" value="值"/>
+列表：<select><option value="值"></option></select>
+文本域：<textarea clos="宽度" rows="高度"></textarea>
+提交按钮：<input type="submit" name="名称" value="值"/>
+重置按钮：<input type="reset" name="名称" value="值"/>
+下拉列表：<select><option></option>...</select>
+optgroup属性：用于定义选项组
+option属性：size(指定下拉菜单的可见选项数)
+multiole属性：当值等于multiple时，下拉菜单具有多项选择的功能，方法为按ctrl键的同时选择多项
+selected属性：当值等于selected时，当前标签的内容为默认选中项
+<optgroup></optgroup>选项分组效果
+扩大控件的选择范围：<label  for="名称"></label>
+表单结束标签：</form>
+文字粗体：<strong></strong>
+文字斜体：<em></em>
+删除线：<del></del>
+下划线：<ins></ins>
+内嵌式：<style type="text/css"></style>
+链入式：<link href="地址css文件" type="text/css" rel="stylesheet"/>
+通配符选择器：*｛｝能匹配所有元素
+字号大小：font—size属性
+字体：font—family："字体"
+字体粗细：font—weight：normal(默认值)，bold(粗体)，bolder(更粗)，lighter(更细)。
+font—variant：normal(默认值)，italic(斜体)，oblique(倾斜体)。
+字间距：letter—spacing
+单词字间距：word—spacing
+行间距：line—height
+文本转换：text—transform：none(默认值)，capitalize(首字母大写)，uppercase(全部转换大写)，lowercase(全部小写)。
+文本装饰：text—decoration：none(默认值)，underline(下划线)，overline(上划线)，line—through(删除线)。
+水平对齐：text—align：left(左对齐)，right(右对齐)，center(居中对齐)
+首行缩进：text—indent
+背景颜色：background—color
+标记选择器权重：1
+类选择器权重：10
+i试d选择器权重：100
+盒子边框：border
+盒子内边距：padding
+盒子外边距：margin
+边框样式：border—style：none(没边框)，solid(单实线)，dotted(点线)，double(双实线)
+边框宽度：border—width
+边框颜色：border—color
+背景图像：background—image：url(地址)
+背景图像平铺：background—repeat：repeat(沿水平和竖直平铺)，no—repeat(不平铺)，repeat—x(只沿水平平铺)，repeat—y(只沿垂直平铺)
+背景图像固定：background—attachment：scroll(一起滚动)，fixed(固定)
+块元素：<h1>到<h6>，<p>，<div>，<ul>，<ol>，<li>
+行内元素：<strong>，<em>，<del>，<ins>，<a>，<span>。行内元素都在同行显示，不会独立换行，宽度和高度不可设置，设置margin(外边距)时，只有左右有效，padding设置时也是只有左右有效。
+元素的转换：display属性：inline(将此元素显示为行内元素)，block(显示为块元素)，inline—block(显示为行内块元素，可以对其设置宽度和高度和对齐方式行属性，但不会独占一行)，none(将隐藏，不显示，也不占用空间，相当于该元素不存在)
+相邻块元素垂直外边距的合并：上面的元素有下外边距，下面的元素有上边的外边距，垂直距离取较大的外边距的距离，而不是两者合并的和
+嵌套块元素垂直子元素的情况：如果未对父元素设置上内边距有边框，则父元素的上外边距会与子元素的了外边距发生合并，距离为较大者的外边距距离
+元素浮动属性：float：left(居左浮动)，right(居右浮动)，none(不浮动，默认值)
+清除浮动属性：clear：left(清除居左浮动)，right(清除居右浮动)，none(不清除浮动，默认值)，both(同时清除左右两侧浮动)
+无序列表：<ul>
+                            <li><li>
+                    </ul>
+type属性：可修改项目符号，在css样式中设置
+有序列表：<ol>
+                           <li><li>
+                    </ol>
+定义列表：<dl>
+                            <dt>名词1</dt>
+                            <dd>名词解释1</dd>
+                            <dd>名词解释2</dd>...
+                    </dl>
+列表复合属性：list—style：列表项目符号，列表项目符号的位置，列表项目图像
+锚点链接：<a href="类选择器" </a> 在当前页面实现快速查找
+链接伪类：link(未访问时超链接的状态)
+                   visited(访问后超链接的状态)
+              hover(鼠标经过、悬停时超链接的状态)
+                active(鼠标单击不放开超链接的状态)
+清除超链下划线：text—decoration：none
+表格：bgcolor属性(背景颜色)，background(背景图像)，colspan属性(合并水平方向的单元格)，rowpan属性(合并竖直方向的单元格)，
+valign属性(垂直对齐方式)：top、middle、bottom，th属性(表头，一般在第一列或第一行，以粗体居中显示)
+元素的定位：position属性：
+ static静态定位(默认值)：偏移量对它不起作用  relative相对定位：当偏移量改变时，它也会被相对的移动，但它原来的位置会空出来。
+absolute绝对定位：依据父元素定位，若父元素没有定位，会依据body元素进行定位。
+fixed固定定位：相当于一个块元素
+
+css鼠标属性
+cursor：default(默认值)，auto和text和heip(大写i的光标形状)，crosshair(加号形状)，move(带四个方向标形状)，e—resize(带左右箭头形状)，se—resize(左斜上下箭头形状)，ne—resize(右斜上下箭头形状)，pointer(握手形状)，wait(圆圈加载形状)
