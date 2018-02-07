@@ -8,6 +8,7 @@ IE强制刷新:  ctrl+f5
  <A href="http://download.13137game.com/zdjssm.apk">
                <img src="__PUBLIC__/lbt/1.jpg" alt=""></A>
                这段代码，实现在图片里加入了下载链接
+               如果引用一个文件1，刚好跟index文件在同一目录，那么是这样：href="1.html"
              
 css
 层叠样式表
