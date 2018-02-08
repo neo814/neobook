@@ -9,6 +9,14 @@ IE强制刷新:  ctrl+f5
                <img src="__PUBLIC__/lbt/1.jpg" alt=""></A>
                这段代码，实现在图片里加入了下载链接
                如果引用一个文件1，刚好跟index文件在同一目录，那么是这样：href="1.html"
+
+               .php可以做为主页， 需要配合另外一个html文件
+
+               href可以引用 .php文件
+               href="http://www.w3school.com.cn/contact.php
+             
+             解析域名，会有24小时左右的延迟
+
              
 css
 层叠样式表
