@@ -22,6 +22,19 @@ css
 层叠样式表
 里面可以出现很多种格式排版，以代号出现，是格式的集合，在网页代码里可以随意引用
 
+css color 属性设置
+body
+  {
+  color:red;
+  }
+h1
+  {
+  color:#00ff00;
+  }
+p
+  {
+  color:rgb(0,0,255);
+  }
 表格：<table> 。<tr>行， <td>列。<bgcolor>背景颜色，<border>表格边框，<cellpadding>表格字间距，<cellspacing>表格边框间距；
 超链接：<a href="地址" title="提示信息" target="＿blank(跳转新窗口)，＿top(全窗口连结)，页框名(在指定页框连结)"；
 <a href="#xz"> 引用网页中一个锚点
