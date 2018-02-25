@@ -9,11 +9,32 @@ IE强制刷新:  ctrl+f5
                <img src="__PUBLIC__/lbt/1.jpg" alt=""></A>
                这段代码，实现在图片里加入了下载链接
                如果引用一个文件1，刚好跟index文件在同一目录，那么是这样：href="1.html"
+
+               .php可以做为主页， 需要配合另外一个html文件
+
+               href可以引用 .php文件
+               href="http://www.w3school.com.cn/contact.php
+             
+             解析域名，会有24小时左右的延迟
+
              
 css
 层叠样式表
 里面可以出现很多种格式排版，以代号出现，是格式的集合，在网页代码里可以随意引用
 
+css color 属性设置
+body
+  {
+  color:red;
+  }
+h1
+  {
+  color:#00ff00;
+  }
+p
+  {
+  color:rgb(0,0,255);
+  }
 表格：<table> 。<tr>行， <td>列。<bgcolor>背景颜色，<border>表格边框，<cellpadding>表格字间距，<cellspacing>表格边框间距；
 超链接：<a href="地址" title="提示信息" target="＿blank(跳转新窗口)，＿top(全窗口连结)，页框名(在指定页框连结)"；
 <a href="#xz"> 引用网页中一个锚点
